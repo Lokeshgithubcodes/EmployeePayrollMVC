@@ -2,6 +2,7 @@ using BusinessLayer.Interfaces;
 using BusinessLayer.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -31,8 +32,17 @@ namespace EmployeePayRollMVC
             //Services are added.
             services.AddScoped<IEmployeeBusiness, EmployeeBusiness>();
             services.AddScoped<IEmployeeRepository, EmployeeRespository>();
+            
 
-
+            // Session is added
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(60);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+                options.Cookie.SameSite = SameSiteMode.None; // or SameSiteMode.Lax or SameSiteMode.Strict
+                options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+            });
 
 
         }
@@ -54,6 +64,9 @@ namespace EmployeePayRollMVC
             app.UseStaticFiles();
 
             app.UseRouting();
+            
+            // 
+            app.UseSession();
 
             app.UseAuthorization();
 

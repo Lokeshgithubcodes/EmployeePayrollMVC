@@ -185,6 +185,35 @@ namespace RespositoryLayer.Services
             }
         }
 
+        public Employee Login(LoginModel model)
+        {
+            
+            
+            using( SqlConnection conn = new SqlConnection(connectionstring))
+            {
+                conn.Open();
+
+               SqlCommand cmd = new SqlCommand("emplogin_sp", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@id",model.Id);
+                cmd.Parameters.AddWithValue("@name", model.Name);
+                SqlDataReader rdr = cmd.ExecuteReader ();
+                while(rdr.Read())
+                {
+                    Employee employee = new Employee();
+                    employee.Id = Convert.ToInt32(rdr["ID"]);
+                    employee.Name = Convert.ToString(rdr["Name"]);
+                    return employee;
+                }
+
+                return null;
+
+            }
+            
+
+        }
+
+
 
     }
 }

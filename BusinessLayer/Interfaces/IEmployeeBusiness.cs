@@ -16,6 +16,9 @@ namespace BusinessLayer.Interfaces
         public bool DeleteEmployee(int id);
 
         public Employee GetEmployeeById(int id);
-        
+
+        public Employee Login(LoginModel model);
+
+
     }
 }

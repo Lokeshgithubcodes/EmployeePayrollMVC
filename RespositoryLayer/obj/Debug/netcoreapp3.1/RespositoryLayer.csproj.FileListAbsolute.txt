@@ -11,3 +11,4 @@ C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\obj\De
 C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\obj\Debug\netcoreapp3.1\Resposit.806F8954.Up2Date
 C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\obj\Debug\netcoreapp3.1\RespositoryLayer.dll
 C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\obj\Debug\netcoreapp3.1\RespositoryLayer.pdb
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\obj\Debug\netcoreapp3.1\RespositoryLayer.sourcelink.json

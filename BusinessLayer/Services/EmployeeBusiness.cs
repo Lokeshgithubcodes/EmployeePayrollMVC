@@ -40,5 +40,12 @@ namespace BusinessLayer.Services
         {
             return employeeRepository.GetEmployeeById(id);
         }
+
+        public Employee Login(LoginModel model)
+        {
+            return employeeRepository.Login(model);
+        }
+
+
     }
 }

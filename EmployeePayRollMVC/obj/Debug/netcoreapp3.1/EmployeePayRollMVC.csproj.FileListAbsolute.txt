@@ -129,3 +129,5 @@ C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\
 C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Delete.cshtml.g.cs
 C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs
 C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\GetEmpById.cshtml.g.cs
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\EmployeePayRollMVC.sourcelink.json
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\EmployeePayRollMVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Login.cshtml.g.cs

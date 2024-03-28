@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Interfaces;
 using CommonLayer.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RespositoryLayer.Interfaces;
 using System;
@@ -23,11 +24,12 @@ namespace EmployeePayRollMVC.Controllers
         }
 
         [HttpGet]
+
         public IActionResult ListofEmployee()
         {
             List<Employee> employee = new List<Employee>();
             employee = employeeBusiness.GetAllEmployees().ToList();
-             return View(employee);
+            return View(employee);
 
         }
 
@@ -126,6 +128,31 @@ namespace EmployeePayRollMVC.Controllers
             employeeBusiness.DeleteEmployee(id);
             return RedirectToAction("ListofEmployee");
         }
+
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(LoginModel model)
+        {
+            var result = employeeBusiness.Login(model);
+            if (result == null)
+            {
+                return Content("Invalid Credentials");
+            }
+            else
+            {
+
+                HttpContext.Session.SetInt32("Id", result.Id);
+
+                return RedirectToAction("GetEmpById", new { Id = result.Id });
+            }
+        }
+
 
     }
 }
