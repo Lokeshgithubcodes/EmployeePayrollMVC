@@ -1,0 +1,13 @@
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\bin\Debug\netcoreapp3.1\RespositoryLayer.deps.json
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\bin\Debug\netcoreapp3.1\RespositoryLayer.dll
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\bin\Debug\netcoreapp3.1\RespositoryLayer.pdb
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\bin\Debug\netcoreapp3.1\CommonLayer.dll
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\bin\Debug\netcoreapp3.1\CommonLayer.pdb
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\obj\Debug\netcoreapp3.1\RespositoryLayer.csproj.AssemblyReference.cache
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\obj\Debug\netcoreapp3.1\RespositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\obj\Debug\netcoreapp3.1\RespositoryLayer.AssemblyInfoInputs.cache
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\obj\Debug\netcoreapp3.1\RespositoryLayer.AssemblyInfo.cs
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\obj\Debug\netcoreapp3.1\RespositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\obj\Debug\netcoreapp3.1\Resposit.806F8954.Up2Date
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\obj\Debug\netcoreapp3.1\RespositoryLayer.dll
+C:\Users\Ramisettylokesh\source\repos\EmployeePayRollMVC\RespositoryLayer\obj\Debug\netcoreapp3.1\RespositoryLayer.pdb
