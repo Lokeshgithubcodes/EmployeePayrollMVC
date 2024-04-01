@@ -3,13 +3,17 @@
 @{
     ViewData["Title"] = "GetEmpById";
 }
+<style>
+    
+</style>
+
 
 <h1>GetEmpById</h1>
 
 <div>
     <h4>Employee</h4>
     <hr />
-    <dl class="row">
+    <dl class="row" >
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Id)
         </dt>
@@ -25,9 +29,9 @@
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.ProfileImage)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ProfileImage)
-        </dd>
+        <dt class = "col-sm-10">
+            <img src="@Html.DisplayFor(model => model.ProfileImage)" alt="Image not found" />
+        </dt>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Gender)
         </dt>

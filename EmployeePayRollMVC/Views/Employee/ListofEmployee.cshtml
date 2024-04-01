@@ -4,6 +4,7 @@
     ViewData["Title"] = "ListofEmployee";
 }
 
+
 <h1>ListofEmployee</h1>
 
 <p>
@@ -49,7 +50,7 @@
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ProfileImage)
+               <img src=" @Html.DisplayFor(modelItem => item.ProfileImage)" alt="Image Not Found" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Gender)
