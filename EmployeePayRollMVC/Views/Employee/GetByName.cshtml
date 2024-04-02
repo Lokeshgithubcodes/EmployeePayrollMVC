@@ -1,13 +1,10 @@
 ﻿@model IEnumerable<CommonLayer.Models.Employee>
 
 @{
-    ViewData["Title"] = "ListofEmployee";
+    ViewData["Title"] = "GetByName";
 }
 
-
-<h1>ListofEmployee</h1>
-
-
+<h1>GetByName</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -52,7 +49,7 @@
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-               <img src=" @Html.DisplayFor(modelItem => item.ProfileImage)" alt="Image Not Found" />
+                @Html.DisplayFor(modelItem => item.ProfileImage)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Gender)
@@ -70,9 +67,9 @@
                 @Html.DisplayFor(modelItem => item.Notes)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new {  id=item.Id  }) |
-                @Html.ActionLink("Details", "GetEmpById", new { id = item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new {  id=item.Id })
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
             </td>
         </tr>
 }

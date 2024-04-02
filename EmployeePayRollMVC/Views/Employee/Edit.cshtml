@@ -3,59 +3,114 @@
 @{
     ViewData["Title"] = "Edit";
 }
+<style>
 
+    .for-middle {
+        margin: 0px auto;
+    }
+
+    .for-width{
+        width:400px;
+    }
+
+</style>
 <h1>Edit</h1>
 
 <h4>Employee</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-               @*  <label asp-for="Id" class="control-label"></label> *@
-                <input asp-for="Id" class="form-control" type="hidden" readonly/>
-                <span asp-validation-for="Id" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ProfileImage" class="control-label"></label>
-                <input asp-for="ProfileImage" class="form-control" />
-                <span asp-validation-for="ProfileImage" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Gender" class="control-label"></label>
-                <input asp-for="Gender" class="form-control" />
-                <span asp-validation-for="Gender" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Department" class="control-label"></label>
-                <input asp-for="Department" class="form-control" />
-                <span asp-validation-for="Department" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Salary" class="control-label"></label>
-                <input asp-for="Salary" class="form-control" />
-                <span asp-validation-for="Salary" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="StartDate" class="control-label"></label>
-                <input asp-for="StartDate" class="form-control" />
-                <span asp-validation-for="StartDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Notes" class="control-label"></label>
-                <input asp-for="Notes" class="form-control" />
-                <span asp-validation-for="Notes" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+<div class="container ">
+    <div class="row w-100 for-middle">
+        <div class="col-md-10">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    @*  <label asp-for="Id" class="control-label"></label> *@
+                    <input asp-for="Id" class="form-control for-width" type="hidden" readonly />
+                    <span asp-validation-for="Id" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <div class="d-flex flex=row">
+                        <label asp-for="Name" class="control-label pr-5 p-2"></label>
+                        <input asp-for="Name" class="form-control ml-4" />
+                    </div>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <div class="d-flex flex-row">
+                        <label asp-for="ProfileImage" class="control-label pt-3 mr-5 "></label>
+                        @* <input asp-for="ProfileImage" class="form-control" /> *@
+
+                        @Html.RadioButtonFor(a => a.ProfileImage, Url.Content("~/Asserts/rollimg1.png"))<img src="~/Asserts/rollimg1.png" class="mr-5 pl-2">
+
+                        @Html.RadioButtonFor(a => a.ProfileImage, Url.Content("~/Asserts/rollimg2.png"))<img src="~/Asserts/rollimg2.png" class="mr-5 pl-2">
+
+                        @Html.RadioButtonFor(a => a.ProfileImage, Url.Content("~/Asserts/rollimg4.png"))<img src="~/Asserts/rollimg4.png" class="mr-5 pl-2">
+
+                        @Html.RadioButtonFor(a => a.ProfileImage, Url.Content("~/Asserts/rollimg5.png"))<img src="~/Asserts/rollimg5.png" class="mr-5 pl-2">
+
+                        <span asp-validation-for="ProfileImage" class="text-danger"></span>
+                    </div>
+                    </div>
+                <div class="form-group">
+                    <div class="d-flex flex-row">
+                        <label asp-for="Gender" class="control-label mr-4 pr-5"></label>
+
+                        @* <input asp-for="Gender" class="form-control" /> *@
+
+                        <div class="ml-3 mr-1">
+                            @Html.RadioButtonFor(model => model.Gender, "Male")
+                        </div>
+                        Male
+
+                        <div class="ml-3">
+                            @Html.RadioButtonFor(model => model.Gender, "Female")
+                            Female
+                        </div>
+
+                        <span asp-validation-for="Gender" class="text-danger"></span>
+
+                    </div>
+                    <div class="form-group">
+                        <div class="d-flex flex-row">
+                            <label asp-for="Department" class="control-label pr-5 p-1 "></label>
+                            @Html.DropDownList("Department", new List<SelectListItem>
+                            {
+                            new SelectListItem { Text = "Developer"},
+                            new SelectListItem { Text = "Analyst"},
+                            new SelectListItem { Text = "IT"},
+                            new SelectListItem { Text = "HR"},
+                            new SelectListItem { Text = "Sales"}
+                            }, "Select Department", new { @class = "custom-textbox" })
+                        </div>
+
+                        <span asp-validation-for="Department" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <div class="d-flex flex-row">
+                            <label asp-for="Salary" class="control-label ml-1 pr-5 "></label>
+                            <input asp-for="Salary" class="form-control ml-4 " />
+                        </div>
+                        <span asp-validation-for="Salary" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <div class="d-flex flex-row">
+                            <label asp-for="StartDate" class="control-label ml-1 pr-5 "></label>
+                            <input asp-for="StartDate" class="form-control " />
+                        </div>
+                        <span asp-validation-for="StartDate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <div class="d-flex flex-row">
+                            <label asp-for="Notes" class="control-label ml-1 pr-5"></label>
+                            <input asp-for="Notes" class="form-control p-5 ml-4 " />
+                        </div>
+                        <span asp-validation-for="Notes" class="text-danger"></span>
+                    </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 

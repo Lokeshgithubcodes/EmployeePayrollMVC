@@ -46,6 +46,15 @@ namespace BusinessLayer.Services
             return employeeRepository.Login(model);
         }
 
+        public IEnumerable<Employee> GetByName(string name)
+        {
+            return employeeRepository.GetByName(name);
+        }
+
+        public bool Empnotexist(Employee employee)
+        {
+            return employeeRepository.Empnotexist(employee);
+        }
 
     }
 }

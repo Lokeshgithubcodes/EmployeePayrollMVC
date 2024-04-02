@@ -19,6 +19,8 @@ namespace BusinessLayer.Interfaces
 
         public Employee Login(LoginModel model);
 
+        public IEnumerable<Employee> GetByName(string name);
 
+        public bool Empnotexist(Employee employee);
     }
 }

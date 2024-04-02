@@ -18,5 +18,9 @@ namespace RespositoryLayer.Interfaces
         public Employee GetEmployeeById(int id);
 
         public Employee Login(LoginModel model);
+
+        public IEnumerable<Employee> GetByName(string name);
+
+        public bool Empnotexist(Employee employee);
     }
 }

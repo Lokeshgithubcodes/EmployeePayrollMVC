@@ -213,8 +213,82 @@ namespace RespositoryLayer.Services
 
         }
 
+        
+        // Get Employee By name
+        public IEnumerable<Employee> GetByName(string name)
+        {
+            List<Employee> employees = new List<Employee>();
+            using (SqlConnection conn=new SqlConnection(connectionstring))
+            {
+                try
+                {
+                    conn.Open ();
+                    SqlCommand cmd = new SqlCommand("empname_sp", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@name", name);
+
+                    SqlDataReader dataReader = cmd.ExecuteReader();
+                    while (dataReader.Read())
+                    {
+                        Employee employee = new Employee();
+                        employee.Id = Convert.ToInt32(dataReader["Id"]);
+                        employee.Name = dataReader["Name"].ToString();
+                        employee.ProfileImage = dataReader["ProfileImage"].ToString();
+                        employee.Gender = dataReader["Gender"].ToString();
+                        employee.Department = dataReader["Department"].ToString() ;
+                        employee.Salary = Convert.ToInt64(dataReader["salary"]);
+                        employee.StartDate = Convert.ToDateTime(dataReader["StartDate"]);
+                        employee.Notes = dataReader["Notes"].ToString();
+                        employees.Add(employee);
+                    }
+                    return employees;
 
 
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                return null;
+            }
+            
+        }
+
+        // check if emp exist, then update the data else insert a new data
+
+        public bool Empnotexist(Employee employee)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionstring))
+            {
+                try
+                {
+                    conn.Open();
+                    SqlCommand cmd = new SqlCommand("empupdateifnot_sp", conn);
+                    cmd.CommandType=CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@id",employee.Id);
+                    cmd.Parameters.AddWithValue("@name", employee.Name);
+                    cmd.Parameters.AddWithValue("@profileimage", employee.ProfileImage);
+                    cmd.Parameters.AddWithValue("@gender", employee.Gender);
+                    cmd.Parameters.AddWithValue("department", employee.Department);
+                    cmd.Parameters.AddWithValue("salary", employee.Salary);
+                    cmd.Parameters.AddWithValue("@startdate", employee.StartDate);
+                    cmd.Parameters.AddWithValue("@note", employee.Notes);
+                    cmd.ExecuteNonQuery();
+                    return true;
+
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    conn.Close();
+                }
+                return false;
+            }
+        }
 
     }
 }

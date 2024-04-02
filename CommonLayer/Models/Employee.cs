@@ -22,7 +22,7 @@ namespace CommonLayer.Models
         public string Department { get; set; }
 
         [Required(ErrorMessage = "SALARY CANNOT BE EMPTY....")]
-        [RegularExpression(@"[0-9]", ErrorMessage = "SALARY MUST BE A NUMBER")]
+        
 
         public long Salary { get; set; }
 

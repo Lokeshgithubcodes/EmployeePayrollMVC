@@ -1,0 +1,35 @@
+﻿@model CommonLayer.Models.Employee
+
+@{
+    ViewData["Title"] = "ViewDemo";
+}
+
+<h1>ViewDemo</h1>
+
+<h4>Workers</h4>
+
+@* ViewBag is added: it is transfers data from controller to view and stores data like variable only*@
+<label>@ViewBag.date</label>
+
+@* for ViewData  *@
+
+<table class="table table-responsive">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+    </tr>
+    @foreach (EmployeePayRollMVC.Controllers.EmployeeController.Workers wok in (List<EmployeePayRollMVC.Controllers.EmployeeController.Workers>)ViewData["All"])
+    {
+        <tr>
+            <th>@wok.Id</th>
+            <th>@wok.Name</th>
+        </tr>
+    }
+</table>
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

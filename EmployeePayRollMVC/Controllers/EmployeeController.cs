@@ -20,6 +20,7 @@ namespace EmployeePayRollMVC.Controllers
 
         public IActionResult Index()
         {
+            
             return View();
         }
 
@@ -31,11 +32,13 @@ namespace EmployeePayRollMVC.Controllers
             employee = employeeBusiness.GetAllEmployees().ToList();
             return View(employee);
 
+            
         }
 
         [HttpGet]
         public IActionResult Create()
         {
+           
             return View();
         }
 
@@ -129,6 +132,8 @@ namespace EmployeePayRollMVC.Controllers
             return RedirectToAction("ListofEmployee");
         }
 
+      
+
 
         [HttpGet]
         public IActionResult Login()
@@ -151,6 +156,89 @@ namespace EmployeePayRollMVC.Controllers
 
                 return RedirectToAction("GetEmpById", new { Id = result.Id });
             }
+        }
+
+        [HttpGet]
+
+        public IActionResult GetByName(string name)
+        {
+            List<Employee> employees = new List<Employee>();
+            employees=employeeBusiness.GetByName(name).ToList();
+            if(employees == null)
+            {
+                return Content("Not Found");
+            }
+            return View(employees);
+        }
+
+
+
+
+
+        [HttpGet]
+        public IActionResult empinsert(int id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            Employee employee = employeeBusiness.GetEmployeeById(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            return View(employee);
+        }
+
+        [HttpPost]
+        public IActionResult empinsert(Employee employee)
+        {
+            var res = employeeBusiness.Empnotexist(employee);
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    employeeBusiness.Empnotexist(employee);
+                    return RedirectToAction("ListOfEmployee");
+                }
+                return View();
+            }
+            catch (Exception)
+            {
+                ModelState.AddModelError(string.Empty, "An error occurred while processing your request.");
+                return View(employee);
+            }
+
+        }
+
+        //for ViewData 
+
+        public class Workers
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+
+        }
+
+        [HttpGet]
+        public IActionResult ViewDemo()
+        {
+            List<Workers> workers = new List<Workers> 
+            { 
+                new Workers{Id=1, Name="John"},
+                new Workers{Id=2, Name="Will"},
+                new Workers{Id=3, Name="Scott"},
+                new Workers{Id=4, Name="Smith"}
+            };
+
+            //for transfer data from controller to view 
+            ViewBag.date = DateTime.Now.ToString();
+            //for transfer large set of data from controller to view
+            ViewData["All"] = workers;
+
+            //By Using of TempData we can transfer large amount of data to multiple controller.
+
+            return View();
         }
 
 
