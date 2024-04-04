@@ -238,9 +238,15 @@ namespace EmployeePayRollMVC.Controllers
 
             //By Using of TempData we can transfer large amount of data to multiple controller.
 
-            return View();
+            //for partialView below we pass workers parameter are output in protoType.cshtml
+            return View(workers);
         }
 
+        [HttpGet]
+        public PartialViewResult ProtoType()
+        {
+            return PartialView();
+        }
 
     }
 }

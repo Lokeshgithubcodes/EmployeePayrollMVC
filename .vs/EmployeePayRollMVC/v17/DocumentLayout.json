@@ -7,8 +7,20 @@
       "RelativeMoniker": "D:0:0:{2D1FC2CE-83BD-469D-99EB-25FAF0CC238A}|EmployeePayRollMVC\\EmployeePayRollMVC.csproj|solutionrelative:employeepayrollmvc\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2D1FC2CE-83BD-469D-99EB-25FAF0CC238A}|EmployeePayRollMVC\\EmployeePayRollMVC.csproj|c:\\users\\ramisettylokesh\\source\\repos\\employeepayrollmvc\\employeepayrollmvc\\views\\employee\\prototype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D1FC2CE-83BD-469D-99EB-25FAF0CC238A}|EmployeePayRollMVC\\EmployeePayRollMVC.csproj|solutionrelative:employeepayrollmvc\\views\\employee\\prototype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2D1FC2CE-83BD-469D-99EB-25FAF0CC238A}|EmployeePayRollMVC\\EmployeePayRollMVC.csproj|c:\\users\\ramisettylokesh\\source\\repos\\employeepayrollmvc\\employeepayrollmvc\\views\\employee\\viewdemo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2D1FC2CE-83BD-469D-99EB-25FAF0CC238A}|EmployeePayRollMVC\\EmployeePayRollMVC.csproj|solutionrelative:employeepayrollmvc\\views\\employee\\viewdemo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D1FC2CE-83BD-469D-99EB-25FAF0CC238A}|EmployeePayRollMVC\\EmployeePayRollMVC.csproj|c:\\users\\ramisettylokesh\\source\\repos\\employeepayrollmvc\\employeepayrollmvc\\views\\employee\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D1FC2CE-83BD-469D-99EB-25FAF0CC238A}|EmployeePayRollMVC\\EmployeePayRollMVC.csproj|solutionrelative:employeepayrollmvc\\views\\employee\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD37BB37-C8B7-4F1A-9C26-C9F072E30822}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\employeepayrollmvc\\commonlayer\\commonlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD37BB37-C8B7-4F1A-9C26-C9F072E30822}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\commonlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D1FC2CE-83BD-469D-99EB-25FAF0CC238A}|EmployeePayRollMVC\\EmployeePayRollMVC.csproj|c:\\users\\ramisettylokesh\\source\\repos\\employeepayrollmvc\\employeepayrollmvc\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -33,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2D1FC2CE-83BD-469D-99EB-25FAF0CC238A}|EmployeePayRollMVC\\EmployeePayRollMVC.csproj|c:\\users\\ramisettylokesh\\source\\repos\\employeepayrollmvc\\employeepayrollmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2D1FC2CE-83BD-469D-99EB-25FAF0CC238A}|EmployeePayRollMVC\\EmployeePayRollMVC.csproj|solutionrelative:employeepayrollmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D1FC2CE-83BD-469D-99EB-25FAF0CC238A}|EmployeePayRollMVC\\EmployeePayRollMVC.csproj|c:\\users\\ramisettylokesh\\source\\repos\\employeepayrollmvc\\employeepayrollmvc\\views\\employee\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D1FC2CE-83BD-469D-99EB-25FAF0CC238A}|EmployeePayRollMVC\\EmployeePayRollMVC.csproj|solutionrelative:employeepayrollmvc\\views\\employee\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{508F9E0F-8550-41EA-AA55-F30DEAFAA191}|RespositoryLayer\\RespositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\employeepayrollmvc\\respositorylayer\\services\\employeerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,10 +119,6 @@
       "RelativeMoniker": "D:0:0:{2D1FC2CE-83BD-469D-99EB-25FAF0CC238A}|EmployeePayRollMVC\\EmployeePayRollMVC.csproj|solutionrelative:employeepayrollmvc\\employeepayrollmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD37BB37-C8B7-4F1A-9C26-C9F072E30822}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\employeepayrollmvc\\commonlayer\\commonlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{CD37BB37-C8B7-4F1A-9C26-C9F072E30822}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\commonlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{24EC0E29-7C56-456F-B217-3C7416868DEC}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\employeepayrollmvc\\businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{24EC0E29-7C56-456F-B217-3C7416868DEC}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
@@ -130,21 +134,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 23,
+          "SelectedChildIndex": 24,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "EmployeePayRollMVC\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "EmployeePayRollMVC\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T12:44:13.409Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -152,19 +143,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProtoType.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Employee\\ProtoType.cshtml",
+              "RelativeDocumentMoniker": "EmployeePayRollMVC\\Views\\Employee\\ProtoType.cshtml",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Employee\\ProtoType.cshtml",
+              "RelativeToolTip": "EmployeePayRollMVC\\Views\\Employee\\ProtoType.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T06:46:40.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "EmployeePayRollMVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "EmployeePayRollMVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T12:44:13.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ViewDemo.cshtml",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Employee\\ViewDemo.cshtml",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Views\\Employee\\ViewDemo.cshtml",
               "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Employee\\ViewDemo.cshtml",
               "RelativeToolTip": "EmployeePayRollMVC\\Views\\Employee\\ViewDemo.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-02T13:49:02.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Views\\Home\\Privacy.cshtml",
@@ -172,12 +188,11 @@
               "RelativeToolTip": "EmployeePayRollMVC\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T12:39:00.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T12:39:00.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Views\\Home\\Index.cshtml",
@@ -185,12 +200,11 @@
               "RelativeToolTip": "EmployeePayRollMVC\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T12:38:55.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T12:38:55.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "empinsert.cshtml",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Employee\\empinsert.cshtml",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Views\\Employee\\empinsert.cshtml",
@@ -198,12 +212,11 @@
               "RelativeToolTip": "EmployeePayRollMVC\\Views\\Employee\\empinsert.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T11:12:01.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T11:12:01.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "GetByName.cshtml",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Employee\\GetByName.cshtml",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Views\\Employee\\GetByName.cshtml",
@@ -211,12 +224,11 @@
               "RelativeToolTip": "EmployeePayRollMVC\\Views\\Employee\\GetByName.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T09:56:00.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T09:56:00.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Program.cs",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Program.cs",
@@ -224,12 +236,11 @@
               "RelativeToolTip": "EmployeePayRollMVC\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T14:25:41.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T14:25:41.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "GetAll.css",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\wwwroot\\css\\GetAll.css",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\wwwroot\\css\\GetAll.css",
@@ -241,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "CommonStyle.css",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\wwwroot\\css\\CommonStyle.css",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\wwwroot\\css\\CommonStyle.css",
@@ -253,20 +264,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Employee\\Login.cshtml",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Views\\Employee\\Login.cshtml",
               "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Employee\\Login.cshtml",
               "RelativeToolTip": "EmployeePayRollMVC\\Views\\Employee\\Login.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-28T12:04:13.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T12:04:13.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Views\\Shared\\_Layout.cshtml",
@@ -274,12 +284,11 @@
               "RelativeToolTip": "EmployeePayRollMVC\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-28T09:30:15.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T09:30:15.276Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\CommonLayer\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "CommonLayer\\Models\\LoginModel.cs",
@@ -291,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\wwwroot\\css\\site.css",
@@ -303,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Models\\ErrorViewModel.cs",
@@ -315,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "GetEmpById.cshtml",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Employee\\GetEmpById.cshtml",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Views\\Employee\\GetEmpById.cshtml",
@@ -323,12 +332,11 @@
               "RelativeToolTip": "EmployeePayRollMVC\\Views\\Employee\\GetEmpById.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-28T04:55:58.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T04:55:58.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Employee\\Edit.cshtml",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Views\\Employee\\Edit.cshtml",
@@ -336,12 +344,11 @@
               "RelativeToolTip": "EmployeePayRollMVC\\Views\\Employee\\Edit.cshtml",
               "ViewState": "AQIAAGkAAAAAAAAAAAAAAHUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-28T04:45:43.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T04:45:43.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Employee\\Delete.cshtml",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Views\\Employee\\Delete.cshtml",
@@ -353,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ListofEmployee.cshtml",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Employee\\ListofEmployee.cshtml",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Views\\Employee\\ListofEmployee.cshtml",
@@ -361,12 +368,11 @@
               "RelativeToolTip": "EmployeePayRollMVC\\Views\\Employee\\ListofEmployee.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T11:11:30.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T11:11:30.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Views\\Employee\\Create.cshtml",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Views\\Employee\\Create.cshtml",
@@ -374,12 +380,11 @@
               "RelativeToolTip": "EmployeePayRollMVC\\Views\\Employee\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T11:10:19.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T11:10:19.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\CommonLayer\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "CommonLayer\\Models\\Employee.cs",
@@ -391,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Startup.cs",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Startup.cs",
@@ -399,12 +404,11 @@
               "RelativeToolTip": "EmployeePayRollMVC\\Startup.cs",
               "ViewState": "AQIAACoAAAAAAAAAAAAuwEwAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T09:27:42.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T09:27:42.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "EmployeePayRollMVC.csproj",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\EmployeePayRollMVC.csproj",
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\EmployeePayRollMVC.csproj",
@@ -422,14 +426,14 @@
               "RelativeDocumentMoniker": "EmployeePayRollMVC\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\EmployeePayRollMVC\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "EmployeePayRollMVC\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAAN4AAAAAAAAAAAAuwO4AAABfAAAA",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAAAPAAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-27T09:27:42.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "IEmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\RespositoryLayer\\Interfaces\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "RespositoryLayer\\Interfaces\\IEmployeeRepository.cs",
@@ -437,12 +441,11 @@
               "RelativeToolTip": "RespositoryLayer\\Interfaces\\IEmployeeRepository.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAQwBcAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T09:27:41.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T09:27:41.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "EmployeeBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\BusinessLayer\\Services\\EmployeeBusiness.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\EmployeeBusiness.cs",
@@ -450,12 +453,11 @@
               "RelativeToolTip": "BusinessLayer\\Services\\EmployeeBusiness.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAswDgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T09:27:41.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T09:27:41.939Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "IEmployeeBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\BusinessLayer\\Interfaces\\IEmployeeBusiness.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\IEmployeeBusiness.cs",
@@ -463,12 +465,11 @@
               "RelativeToolTip": "BusinessLayer\\Interfaces\\IEmployeeBusiness.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAA1wBcAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T09:27:41.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T09:27:41.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "EmployeeRespository.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\RespositoryLayer\\Services\\EmployeeRespository.cs",
               "RelativeDocumentMoniker": "RespositoryLayer\\Services\\EmployeeRespository.cs",
@@ -476,12 +477,11 @@
               "RelativeToolTip": "RespositoryLayer\\Services\\EmployeeRespository.cs",
               "ViewState": "AQIAAN4AAAAAAAAAAAAuwAoBAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T09:27:41.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T09:27:41.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 4,
               "Title": "CommonLayer.csproj",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\CommonLayer\\CommonLayer.csproj",
               "RelativeDocumentMoniker": "CommonLayer\\CommonLayer.csproj",
@@ -493,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "BusinessLayer.csproj",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\BusinessLayer\\BusinessLayer.csproj",
               "RelativeDocumentMoniker": "BusinessLayer\\BusinessLayer.csproj",
@@ -505,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "RespositoryLayer.csproj",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\EmployeePayRollMVC\\RespositoryLayer\\RespositoryLayer.csproj",
               "RelativeDocumentMoniker": "RespositoryLayer\\RespositoryLayer.csproj",
